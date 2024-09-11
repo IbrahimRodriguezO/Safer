@@ -1,0 +1,89 @@
+<!----======== CSS ======== -->
+<link rel="stylesheet" href="estiloregistro.css">
+     
+<!----===== Iconscout CSS ===== -->
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+<title>Registro</title> 
+</head>
+<body>
+<div class="container-0">
+    <h1>Safer</h1>
+</div>
+<div class="container">
+    <header>Registrarte</header>
+
+    <form action="registro_usuarios.php" method="post">
+        <div class="form first">
+            <div class="details personal">
+                <span class="title">Datos personales</span>
+
+                <div class="fields">
+                    <div class="input-field">
+                        <label>Nombre (s)</label>
+                        <input type="text" name="nombre" placeholder="Ingrese su nombre" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Apellido Paterno</label>
+                        <input type="text" name="paterno" placeholder="Ingrese su apellido" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Apellido Materno</label>
+                        <input type="text" name="materno" placeholder="Ingrese su apellido" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Correo electrónico</label>
+                        <input type="text" name="correo" placeholder="Ingrese su correo" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Número de teléfono</label>
+                        <input type="text" name="telefono" placeholder="## #### ####" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Género</label>
+                            <input type="text" name="genero" placeholder="Masculino | Femenino">
+                        </select>
+                    </div>
+
+             
+                    <div class="input-field">
+                        <label>Ocupación</label>
+                        <input type="text" name="ocupacion" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Pais</label>
+                        <input type="text" name="pais" placeholder="Ingrese su residecia" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Usuario </label>
+                        <input type="text" name="user" placeholder="Ingrese su usuario" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Contraseña</label>
+                        <input type="password" name="clave" placeholder="Ingrese su contraseñas" required>
+                    </div>
+
+                    
+           
+                </div>
+            </div>
+                    
+                    <button class="sumbit">
+                        <span class="btnText">Registrar</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div>
+            </div> 
+        </div>
+    </form>
+</div>
+</body>
+</html>

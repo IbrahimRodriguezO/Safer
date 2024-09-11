@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 850px;
+    height: 700px;
+    float: left;
+    background-size: auto;
+    background-position: center;
+    padding: 2%;
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav .logo{
+    width: 160px;
+    cursor: pointer;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+.content{
+    margin-top: 10%;
+    float: right;
+    padding: 2%;
+}
+.content h2{
+   color: red;
+   font-size: 34px;
+}
+.content h1{
+    color: #222;
+    font-size: 65px;
+    margin-top: -25px;
+}
+.content p{
+    max-width: 380px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #555;
+}
+.content h3{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.colour-select div{
+    background: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.colour-select{
+    display: flex;
+    margin-top: 30px;
+}
+.colour-select #white{
+    background: #f7f5f5;
+}
+.colour-select #red{
+    background: red;
+}
+
+.colour-select #black{
+    background: black;
+}

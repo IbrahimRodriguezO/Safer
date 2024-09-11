@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camaro ZL1 2022</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+<div class="container" id="bike">
+   <nav>
+      <img src="images/logo.png" class="logo">
+   </nav>
+   <img src="images/whitec.jpg" alt="" width="850px" height="430px" id="model" style="margin-top: 70px;">
+</div>
+
+<div class="content">
+   <h2>2022</h2>
+   <h1> CAMARO ZL1</h1>
+   <p>Con un diseño icónico y un impresionante desempeño, la leyenda de Camaro se reescribe a cada kilómetro.</p>
+   <h3>Choose your color</h3>
+   <div class="colour-select">
+       <div id="white"></div>
+       <div id="red"></div>
+       <div id="black"></div>
+   </div><br><br>
+   <a href="#" class="btn">Test Drive</a>
+</div>
+<script>
+    let whiteBtn = document.getElementById("white");
+    let redBtn = document.getElementById("red");
+    let blackdBtn = document.getElementById("black");
+    let bike = document.getElementById("bike");
+
+
+    whiteBtn.onclick = function(){
+      document.getElementById('model').src= 'images/whitec.jpg';
+       
+    }
+
+    redBtn.onclick = function(){
+      document.getElementById('model').src= "images/redc.jpg";
+
+    }
+
+    blackdBtn.onclick = function(){
+      document.getElementById('model').src= "images/blackc.jpg";
+       
+    }
+</script>
+</body>
+</html>

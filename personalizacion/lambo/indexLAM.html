@@ -1,0 +1,53 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camaro ZL1 2022</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+<div class="container" id="bike">
+   <nav>
+      <img src="images/logo-lambo.jpg" class="logo">
+   </nav>
+   <img src="images/urus_blanco.png" alt="" width="850px" height="430px" id="model" style="margin-top: 50px;">
+</div>
+
+<div class="content">
+   <h2>2022</h2>
+   <h1> URUS</h1>
+   <p>El Lamborghini Urus es el primer vehículo utilitario superdeportivo. Impulsado por un motor V8 biturbo de 4,0 litros que genera 650 CV de potencia y un par de 850 Nm, el Urus acelera de 0 a 100 km/h en 3,6 segundos y alcanza una velocidad máxima de 305 km/h.</p>
+   <h3>Choose your color</h3>
+   <div class="colour-select">
+       <div id="white"></div>
+       <div id="red"></div>
+       <div id="black"></div>
+  </div><br><br>
+   <a href="#" class="btn">Test Drive</a>
+</div>
+
+<script>
+    let whiteBtn = document.getElementById("white");
+    let redBtn = document.getElementById("red");
+    let blackdBtn = document.getElementById("black");
+    let bike = document.getElementById("bike");
+
+
+    whiteBtn.onclick = function(){
+      document.getElementById('model').src = "images/urus_blanco.png";
+       
+    }
+
+    redBtn.onclick = function(){
+      document.getElementById('model').src = "images/urus_amarillo.png";
+
+    }
+
+    blackdBtn.onclick = function(){
+      document.getElementById('model').src = "images/urus_negro.png";
+       
+    }
+</script>
+</body>
+</html>

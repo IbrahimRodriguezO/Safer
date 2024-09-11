@@ -1,0 +1,49 @@
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrari</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container" id="bike">
+   <nav>
+      <img src="images/logo_ferrari.jpg" class="logo">
+   </nav>
+    <img src="images/Blanco_Fe.jpg" alt="" width="850px" height="430px" id="model" style="margin-top: 70px;">
+</div>
+
+<div class="content">
+   <h2>La definición del placer al volante</h2>
+   <h1> FERRARI 296 GTB </h1>
+   <p>EMISIONES CO2: 149 | G/KMCONSUMO: 6,4 L/100 | KMCONSUMO DE ENERGÍA ELÉCTRICA: 140 WH/KM</p>
+   <h3>Choose your color</h3>
+   <div class="colour-select">
+       <div id="white"></div>
+       <div id="red"></div>
+       <div id="black"></div>
+   </div><br><br>
+   <a href="#" class="btn">Test Drive</a>
+</div>
+<script>
+
+    let whiteBtn = document.getElementById("white");
+    let redBtn = document.getElementById("red");
+    let blackdBtn = document.getElementById("black");
+    let bike = document.getElementById("bike");
+
+    whiteBtn.onclick = function(){
+      document.getElementById('model').src= 'images/Blanco_Fe.jpg';
+       
+    }
+
+    redBtn.onclick = function(){
+      document.getElementById('model').src= 'images/Rojo_Fe.jpg';
+
+    }
+
+    blackdBtn.onclick = function(){
+      document.getElementById('model').src= 'images/Negro_Fe.jpg';
+       
+    }
+</script>
+</body>
+</html>

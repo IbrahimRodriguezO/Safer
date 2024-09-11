@@ -1,0 +1,76 @@
+.contenedor
+{
+    width: 965px;
+    background: white;
+    margin: auto;
+    border-radius: 25px;
+}
+
+body
+{
+    background-color: rgba(0, 0, 0, 0.801);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col
+{
+    width: 265px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding: 20px;
+}
+
+.col h2
+{
+    color: darkblue;
+}
+
+.row
+{
+    text-align: center;
+}
+
+table a
+{
+    color: darkblue;
+    text-decoration: none;
+    padding: 20px;
+}
+
+table a:hover
+{
+    background: darkblue;
+    color: white;
+}
+
+table td 
+{padding: 10px;}
+
+.menu
+{
+    float: right;
+}
+
+.top
+{
+    margin-top: 30px;
+}
+
+.menu li
+{
+    display: inline-block;
+}
+
+.menu a
+{
+    color: darkblue;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.menu a:hover
+{
+    background: darkblue;
+    color: white;
+}

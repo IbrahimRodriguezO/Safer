@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="estilocompra.css">
+     
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Formato de pago</title> 
+</head>
+<body>
+    <div class="container-0">
+        <h1>Safer</h1>
+    </div>
+    <div class="container">
+        <header>Formato de Pago</header>
+
+        <form action="compra.php">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Información del automóvil</span>
+
+                    <div class="fields">
+
+                        <div class="input-field">
+                            <label>Modelo del automóvil</label>
+                            <input type="text" name="modelo">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Usuario</label>
+                            <input type="text" name="usuario">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Razon social</label>
+                            <input type="text" name="razon">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Estado</label>
+                            <input type="text" name="estado">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Cuenta bancaria</label>
+                            <input type="text" required name="cuenta">
+                        </div>
+                    </div>
+                </div>
+    
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Numero de tarjeta</label>
+                            <input type="text" name="tarjeta">
+                        </div>
+
+                        
+                        <div class="input-field">
+                            <label>CVV</label>
+                            <input type="text" name="cvv">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Cantidad</label>
+                            <input type="text" name="cantidad">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Total</label>
+                            <input type="text" name="total">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Costo</label>
+                            <input type="text" name="costo">
+                        </div>
+
+               <input type="submit" value="comprar">
+
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+</body>
+</html>

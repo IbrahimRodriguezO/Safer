@@ -1,0 +1,277 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+h1 {
+	font-size: 3.5em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+h4 {
+	font-size: 2em;
+}
+
+p {
+	font-size: 1.25em;
+}
+
+.container {
+	max-width: 1400px;
+	margin: auto;
+}
+
+.color-acento {
+	color: #094293
+}
+
+header {
+	background-color: rgba(0,0,0, 0.801);
+}
+
+header .logo {
+	margin: 0;
+	padding: 25px 30px;
+	font-weight: bold;
+	color: #f1f1f1;
+	font-size: 1.6em;
+}
+
+header .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header nav {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+header a {
+	padding: 5px 12px;
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(253, 253, 253);
+}
+
+header a:hover {
+	color: aqua;
+}
+
+#hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 100vh;
+	color: white;
+	background-image: linear-gradient(0deg,
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5)), url("https://cdn-3.expansion.mx/dims4/default/6561bb8/2147483647/strip/true/crop/1269x827+0+0/resize/1800x1173!/format/webp/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fbb%2F1e%2Fee0bb1e44bb988101aa00b43f774%2Fistock-480652712-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#hero h1 {
+	color: white;
+}
+
+
+#Mision .container {
+	text-align: center;
+	padding: 100px 12px;
+
+}
+
+#Vision {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 100vh;
+	color: white;
+	background-image: linear-gradient(0deg,
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5)), url("media/cadillac.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#Vision h1 {
+	color: white;
+}
+
+
+#Objetivosyvalores .container {
+	text-align: center;
+	padding: 100px 12px;
+
+}
+
+#Objetivosyvalores {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 90vh;
+	background-image: linear-gradient(0deg,
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5)), url("media/tesla.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#Objetivosyvalores h4 {
+	color: white;
+}
+
+#Objetivosyvalores p {
+	color: white;
+}
+
+
+#Objetivosyvalores .container {
+	text-align: center;
+	padding: 200px 12px;
+
+}
+
+footer {
+	background-color: rgb(7, 7, 7);
+}
+
+footer p {
+	margin: 0;
+	padding: 9px;
+	color: rgb(177, 149, 149);
+}
+
+footer .container {
+	height: 150;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+    float: center;
+}
+
+footer .redes a{
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+
+.redes{
+	width: 500px;
+	height: 100px;
+	color: #fff;
+	text-align: center;
+}
+
+
+
+@media (min-width: 720px) {
+	header {
+		position: fixed;
+		width: 100%;
+	}
+
+	header .container {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	header nav {
+		flex-direction: row;
+		padding-bottom: 0;
+		padding-right: 20px;
+	}
+}
+
+#Mision .container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#Mision .texto {
+	width: 50%;
+	max-width: 600px;
+	text-align: initial;
+	padding-left: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#Mision h2 {
+	margin-top: 0px;
+
+}
+
+#Mision .img-container {
+	background-image: url("media/urus.png");
+	background-size: cover;
+	background-position: center center;
+	height: 522px;
+	width: 953px;
+}
+
+#Mision .container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+-- #Vision .container {
+	display: flex;
+	justify-content: center;
+}
+
+#Vision .texto {
+	width: 50%;
+	text-align: initial;
+	padding: 0px 30px;
+	justify-content: center;
+}
+
+
+#Objetivosyvalores .conteiner {
+	align-content: right;
+	display: flex;
+	justify-content: left;
+}
+
+#Objetivosyvalores .texto {
+	width: 50%;
+	max-width: 600px;
+	text-align: initial;
+	padding: 0px 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+
+
+
+
